@@ -9,26 +9,26 @@
 #### Если у вас powershell
 
 ```Powershell
-git clone https://github.com/Neca-development/nextjs-rtkquery-template.git <ИМЯ ПАКЕТА> ; cd <ИМЯ ПАКЕТА> ; git remote remove origin ; npm i
+git clone https://github.com/Neca-development/next-template.git <ИМЯ ПАКЕТА> ; cd <ИМЯ ПАКЕТА> ; git remote remove origin ; npm i
 ```
 
 #### Если у вас bash
 
 ```Bash
-git clone https://github.com/Neca-development/nextjs-rtkquery-template.git <ИМЯ ПАКЕТА> && cd <ИМЯ ПАКЕТА> && git remote remove origin && npm i
+git clone https://github.com/Neca-development/next-template.git <ИМЯ ПАКЕТА> && cd <ИМЯ ПАКЕТА> && git remote remove origin && npm i
 ```
 ### SSH
 
 #### Если у вас powershell
 
 ```Powershell
-git clone git@github.com:Neca-development/nextjs-rtkquery-template.git <ИМЯ ПАКЕТА> ; cd <ИМЯ ПАКЕТА> ; git remote remove origin ; npm i
+git clone git@github.com:Neca-development/next-template.git <ИМЯ ПАКЕТА> ; cd <ИМЯ ПАКЕТА> ; git remote remove origin ; npm i
 ```
 
 #### Если у вас bash
 
 ```Bash
-git clone git@github.com:Neca-development/nextjs-rtkquery-template.git <ИМЯ ПАКЕТА> && cd <ИМЯ ПАКЕТА> && git remote remove origin && npm i
+git clone git@github.com:Neca-development/next-template.git <ИМЯ ПАКЕТА> && cd <ИМЯ ПАКЕТА> && git remote remove origin && npm i
 ```
 
 ## 📁Structure
