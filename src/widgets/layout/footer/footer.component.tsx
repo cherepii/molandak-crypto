@@ -7,7 +7,7 @@ export const Footer = React.memo((props: IFooterProperties) => {
   return (
     <footer
       {...props}
-      className={clsx('border-t-light-grey bg-secondary-accent border-t-2', className)}
+      className={clsx('border-t-light-grey border-t-2 bg-secondary-accent', className)}
     >
       footer
     </footer>

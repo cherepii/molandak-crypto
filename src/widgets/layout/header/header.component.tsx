@@ -10,7 +10,7 @@ export const Header = React.memo((props: IHeaderProperties) => {
     <header
       {...props}
       className={clsx(
-        'border-primary-text relative flex w-full border-b-2 p-3 px-2',
+        'relative flex w-full border-b-2 border-primary-text p-3 px-2',
         className
       )}
     >
