@@ -7,7 +7,6 @@
     "plugin:unicorn/recommended",
     "plugin:prettier/recommended"
   ],
-  
   "overrides": [
     // Configuration for TypeScript files
     {
@@ -33,21 +32,19 @@
         "project": "./tsconfig.json"
       },
       "rules": {
-        
-          "prettier/prettier": [
-            "warn",
-            {
-              "singleQuote": true,
-              "endOfLine": "auto",
-              "semi": false,
-              "printWidth": 90,
-              "spaceBrackets": true
-            },
-            {
-              "usePrettierrc": false
-            }
-          ],
-        
+        "prettier/prettier": [
+          "warn",
+          {
+            "singleQuote": true,
+            "endOfLine": "auto",
+            "semi": false,
+            "printWidth": 90,
+            "spaceBrackets": true
+          },
+          {
+            "usePrettierrc": false
+          }
+        ],
         // React, NextJS rules
         "jsx-a11y/no-static-element-interactions": "off",
         "react/jsx-indent-props": "off",
@@ -129,6 +126,7 @@
             "allowTernary": true
           }
         ],
+        "tailwindcss/no-custom-classname": "warn",
         // Unicorn rules
         "unicorn/no-array-for-each": "off",
         "unicorn/no-null": "off",
@@ -136,6 +134,8 @@
         "unicorn/prefer-spread": "off",
         "unicorn/no-array-callback-reference": "off",
         "unicorn/consistent-function-scoping": "warn",
+        "unicorn/no-abusive-eslint-disable": "off",
+        "unicorn/filename-case": "off",
         "unicorn/prevent-abbreviations": [
           "warn",
           {
@@ -158,6 +158,7 @@
         ],
         // SonarJS rules
         "sonarjs/no-duplicate-string": "warn",
+        "sonarjs/prefer-single-boolean-return": "warn",
         // Imports rules
         // TODO setup this rule
         "simple-import-sort/imports": "warn",
