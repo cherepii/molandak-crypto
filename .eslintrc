@@ -1,7 +1,7 @@
 {
-  // Configuration for JavaScript files
   "extends": [
-    "airbnb-base",
+    "airbnb",
+    "airbnb-typescript",
     "next/core-web-vitals",
     "plugin:sonarjs/recommended",
     "plugin:unicorn/recommended",
@@ -24,7 +24,6 @@
       ],
       "extends": [
         "plugin:tailwindcss/recommended",
-        "airbnb-typescript",
         "next/core-web-vitals",
         "plugin:prettier/recommended"
       ],
@@ -56,6 +55,7 @@
         "react/jsx-props-no-spreading": "off",
         "react/jsx-indent": "off",
         "@next/next/no-img-element": "off",
+        "react/function-component-definition": "off",
         "react/jsx-curly-spacing": [
           "warn",
           {
@@ -64,6 +64,13 @@
         ],
         "react-hooks/rules-of-hooks": "warn",
         "react-hooks/exhaustive-deps": "warn",
+        "react/jsx-curly-brace-presence": "warn",
+        "react/button-has-type": "warn",
+        "react/no-unused-prop-types": "warn",
+        "jsx-a11y/no-access-key": "warn",
+        "react/no-array-index-key": "warn",
+        "react/jsx-no-useless-fragment": "warn",
+        "react/no-unstable-nested-components": "off",
         // @typescript-eslint rules
         "@typescript-eslint/comma-dangle": "off",
         "@typescript-eslint/strict-boolean-expressions": "off",
@@ -126,7 +133,7 @@
             "allowTernary": true
           }
         ],
-        "tailwindcss/no-custom-classname": "warn",
+        "tailwindcss/no-custom-classname": "off",
         // Unicorn rules
         "unicorn/no-array-for-each": "off",
         "unicorn/no-null": "off",
@@ -158,6 +165,7 @@
         ],
         // SonarJS rules
         "sonarjs/no-duplicate-string": "warn",
+        "import/extensions": ["warn", "never", { "svg": "always" }],
         "sonarjs/prefer-single-boolean-return": "warn",
         // Imports rules
         // TODO setup this rule
