@@ -1,2 +1,2 @@
-export * from './meta'
+export * from './meta.component'
 export * from './meta.config'
