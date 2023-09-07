@@ -1,16 +1,21 @@
 import { Meta } from '@shared/meta'
-import { Container } from '@shared/ui'
-import { Layout } from '@widgets/layout'
+import { MainPageLayout } from '@widgets/main-layout'
 
 export function Home() {
   return (
-    <Layout Meta={<Meta description="Unistory next" title="Unistory" />}>
-      <Layout.Header />
-      <Layout.Main>
-        <Container>unistory next template</Container>
-      </Layout.Main>
-      <Layout.Footer />
-    </Layout>
+    <MainPageLayout
+      style={{
+        alignItems: 'center',
+        display: 'flex',
+        flexDirection: 'column',
+        justifyContent: 'center',
+        padding: '4rem',
+        gap: '2rem',
+      }}
+      Meta={<Meta description="Unistory next" title="Unistory" />}
+    >
+      Unistory next template
+    </MainPageLayout>
   )
 }
 
