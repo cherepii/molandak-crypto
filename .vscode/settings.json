@@ -21,13 +21,6 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
 
-  "vsicons.associations.folders": [
-    { "icon": "redux", "extensions": ["store"] },
-    { "icon": "route", "extensions": ["routing"] },
-    { "icon": "bloc", "extensions": ["blockchain"] },
-    { "icon": "route", "extensions": ["constants"] }
-  ],
-
   "javascript.inlayHints.enumMemberValues.enabled": true,
   "javascript.inlayHints.functionLikeReturnTypes.enabled": true,
   "javascript.inlayHints.parameterNames.enabled": "all",
@@ -49,5 +42,6 @@
     "styles.ts": "variants.ts, keyframes.ts",
     "index.tsx": "data.ts, utils.ts, data.tsx",
     "index.ts": "data.ts, utils.ts, data.tsx, interfaces.ts"
-  }
+  },
+  "editor.acceptSuggestionOnEnter": "on"
 }
