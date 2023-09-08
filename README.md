@@ -3,11 +3,11 @@
 ## 💾Установка
 PowerShell   
 ```Powershell
-git clone https://github.com/Neca-development/next-template.git <ИМЯ ПАКЕТА> ; cd <ИМЯ ПАКЕТА> ; git remote remove origin ; npm i
+git clone https://github.com/Neca-development/next-template.git <ИМЯ ПАКЕТА> ; cd <ИМЯ ПАКЕТА> ; git remote remove origin ; npm i ; node scripts/post-build.js
 ```
 Bash    
 ```Bash
-git clone https://github.com/Neca-development/next-template.git <ИМЯ ПАКЕТА> && cd <ИМЯ ПАКЕТА> && git remote remove origin && npm i
+git clone https://github.com/Neca-development/next-template.git <ИМЯ ПАКЕТА> && cd <ИМЯ ПАКЕТА> && git remote remove origin && npm i && node scripts/post-build.js
 ```
 [comment]: <> (endof installation instruction)
 ## 💽Скрипты
