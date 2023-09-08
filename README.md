@@ -1,5 +1,5 @@
 # 🦄 NEXTJS template
-
+[comment]: <> (startof installation instruction)
 ## 💾Установка
 PowerShell   
 ```Powershell
@@ -9,6 +9,7 @@ Bash
 ```Bash
 git clone https://github.com/Neca-development/next-template.git <ИМЯ ПАКЕТА> && cd <ИМЯ ПАКЕТА> && git remote remove origin && npm i
 ```
+[comment]: <> (endof installation instruction)
 ## 💽Скрипты
 
 1. `"dev"`:  запуск dev сервера приложения
@@ -22,6 +23,7 @@ git clone https://github.com/Neca-development/next-template.git <ИМЯ ПАКЕ
 9. `"commit"`: коммит зарегестрированных в гит изменений
 10. `"postbuild"`:  автозапуск команды после билда
 11. `"ac"`: комлексная команда которая запустит линтер, проверит типы, добавит все изменения в гит и сделает коммит
+
 
 ## 🆔Naming
 
