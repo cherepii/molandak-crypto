@@ -1,14 +1,21 @@
-# 🦄 NEXTJS template
+# 🦄🧱 NEXTJS template
 
+[comment]: <> (startof installation instruction)
 ## 💾Установка
-PowerShell   
+
+PowerShell
+
 ```Powershell
-git clone --depth 1 https://github.com/Neca-development/next-template.git <ИМЯ ПАКЕТА> ; cd <ИМЯ ПАКЕТА> ; git remote remove origin ; npm i
+git clone --depth 1 https://github.com/Neca-development/next-template.git <ИМЯ ПАКЕТА> ; cd <ИМЯ ПАКЕТА> ; git remote remove origin ; npm i ; node scripts/post-build.js
 ```
-Bash    
+
+Bash
+
 ```Bash
-git clone --depth 1 https://github.com/Neca-development/next-template.git <ИМЯ ПАКЕТА> && cd <ИМЯ ПАКЕТА> && git remote remove origin && npm i
+git clone --depth 1 https://github.com/Neca-development/next-template.git <ИМЯ ПАКЕТА> && cd <ИМЯ ПАКЕТА> && git remote remove origin && npm i && node scripts/post-build.js
 ```
+[comment]: <> (endof installation instruction)
+
 ## 💽Скрипты
 
 1. `"dev"`:  запуск dev сервера приложения
@@ -22,6 +29,7 @@ git clone --depth 1 https://github.com/Neca-development/next-template.git <ИМ�
 9. `"commit"`: коммит зарегестрированных в гит изменений
 10. `"postbuild"`:  автозапуск команды после билда
 11. `"ac"`: комлексная команда которая запустит линтер, проверит типы, добавит все изменения в гит и сделает коммит
+
 
 ## 🆔Naming
 
