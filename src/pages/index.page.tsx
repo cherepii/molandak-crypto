@@ -15,6 +15,7 @@ export function Home() {
       Meta={<Meta description="Unistory next" title="Unistory" />}
     >
       Unistory next template
+      <span>{process.env.NEXT_PUBLIC_SERVER_URL}</span>
     </MainPageLayout>
   )
 }

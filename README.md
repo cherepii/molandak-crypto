@@ -3,16 +3,16 @@
 ## 💾Установка
 PowerShell   
 ```Powershell
-git clone https://github.com/Neca-development/next-template.git <ИМЯ ПАКЕТА> ; cd <ИМЯ ПАКЕТА> ; git remote remove origin ; npm i
+git clone --depth 1 https://github.com/Neca-development/next-template.git <ИМЯ ПАКЕТА> ; cd <ИМЯ ПАКЕТА> ; git remote remove origin ; npm i
 ```
 Bash    
 ```Bash
-git clone https://github.com/Neca-development/next-template.git <ИМЯ ПАКЕТА> && cd <ИМЯ ПАКЕТА> && git remote remove origin && npm i
+git clone --depth 1 https://github.com/Neca-development/next-template.git <ИМЯ ПАКЕТА> && cd <ИМЯ ПАКЕТА> && git remote remove origin && npm i
 ```
 ## 💽Скрипты
 
 1. `"dev"`:  запуск dev сервера приложения
-2. `"build"`: билд приложения
+2. `"build:production"`, `"build:development"`, `"build:staging"`: билд приложения в соответствующем режиме. Данная команда создает `.local` файл в корне проекта, который перезаписывает переменные окружения в соответствии с режимом билда
 3. `"start"`: старт последней версии собранного приложения
 4. `"build-stats"`: билд приложения и бандл аналайзера
 5. `"lint"`: запуск линтера без автофикса
