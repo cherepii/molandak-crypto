@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "./fonts.scss";
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+
+@layer base {
+  body {
+    @apply font-ibm-plex bg-bg-dark text-white-100;
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  a {
+    text-decoration: none;
+    color: var(--primary-text-color);
+  }
+}
+
+section {
+  @apply w-full;
+}
+
+input:not([name="name"])::-webkit-contacts-auto-fill-button {
+  visibility: hidden;
+  display: none !important;
+  pointer-events: none;
+  position: absolute;
+  right: 0;
+}
+
+.container {
+  @apply max-w-[1248px] w-full px-[1rem] mx-auto overflow-x-hidden;
+}
+
+.link {
+  position: relative;
+  &::before {
+    @apply bg-primary-100;
+    content: '';
+    position: absolute;
+    bottom: -3px;
+    right: 0;
+    height: 1.5px;
+    transition: transform 0.4s ease;
+    transform: scaleX(0);
+    width: 100%;
+  }
+  &:hover{
+    &::before {
+      transform: scaleX(1);
+      transform-origin: center;
+    }
+  }
+}

@@ -1,3 +1,5 @@
+import '@shared/styles/global.scss'
+
 import type { AppProps } from 'next/app'
 import { Toaster } from 'react-hot-toast'
 

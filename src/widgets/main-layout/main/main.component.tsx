@@ -1,10 +1,9 @@
-import { IconComponent } from '@shared/ui/icon'
+import clsx from 'clsx'
 
 export interface IMainProperties extends React.ComponentProps<'main'> {}
 export function Main(props: IMainProperties) {
   return (
-    <main {...props}>
-      <IconComponent name="unistory" style={{ width: '50vw' }} />
+    <main className={clsx(props.className, 'container')} {...props}>
       {props.children}
     </main>
   )

@@ -15,6 +15,7 @@ module.exports = withBundleAnalyzer({
 
     return config
   },
+  output: 'export',
   poweredByHeader: false,
   trailingSlash: true,
   basePath: '',

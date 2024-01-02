@@ -1,12 +1,20 @@
 import dynamic from 'next/dynamic'
 import type { FC, SVGAttributes, SVGProps } from 'react'
 
-const unistory = dynamic(() =>
-  import('@public/assets/icons/unistory.svg').then((res) => res.default),
+const xIcon = dynamic(() =>
+  import('@public/assets/icons/x-icon.svg').then((res) => res.default),
+)
+const discord = dynamic(() =>
+  import('@public/assets/icons/discord.svg').then((res) => res.default),
+)
+const arrow = dynamic(() =>
+  import('@public/assets/icons/arrow.svg').then((res) => res.default),
 )
 
 const ICONS_MAP = {
-  unistory,
+  xIcon,
+  discord,
+  arrow,
 } as const
 
 export type IconsTypes = keyof typeof ICONS_MAP
