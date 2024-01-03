@@ -42,7 +42,7 @@ input:not([name="name"])::-webkit-contacts-auto-fill-button {
 }
 
 .container {
-  @apply max-w-[1248px] w-full px-[1rem] mx-auto overflow-x-hidden;
+  @apply max-w-[1248px] w-full px-[1rem] mx-auto;
 }
 
 .link {

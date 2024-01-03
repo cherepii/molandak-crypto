@@ -16,7 +16,7 @@ const LINKS = [
   },
   {
     text: 'Contacts',
-    to: 'footer',
+    to: 'contacts',
   },
 ]
 
@@ -24,9 +24,9 @@ export interface IHeaderProperties extends React.ComponentProps<'header'> {}
 
 export const Header = (props: IHeaderProperties) => {
   return (
-    <header {...props}>
+    <header {...props} className="max-mob:hidden">
       <div className="container flex items-center justify-between py-3">
-        <ul className="flex items-center gap-x-6">
+        <ul className="flex items-center gap-x-6 text-base uppercase max-sm:gap-x-2">
           <li>
             <img
               src="/assets/images/logo.png"
@@ -35,7 +35,7 @@ export const Header = (props: IHeaderProperties) => {
             />
           </li>
           {LINKS.map((l) => (
-            <li key={l.to} className="text-base uppercase">
+            <li key={l.to}>
               <Link
                 activeClass="text-primary-100"
                 className="link cursor-pointer"

@@ -8,7 +8,11 @@ export const theme = {
   extend: {
     colors,
     fontFamily: {
-      'ibm-plex': ['"IBM Plex Mono"']
+      'ibm-plex': ['"IBM Plex Mono"'],
+      'caveat': ["Caveat"]
+    },
+    screens: {
+      mob: '480px'
     }
   },
 }

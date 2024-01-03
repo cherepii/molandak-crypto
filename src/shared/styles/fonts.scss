@@ -1,3 +1,4 @@
+//IBM Plex Mono font
 @font-face {
   font-family: "IBM Plex Mono";
   src: url("/assets/fonts/IBM-Plex/IBMPlexMono-Regular.ttf");
@@ -20,6 +21,32 @@
 @font-face {
   font-family: "IBM Plex Mono";
   src: url("/assets/fonts/IBM-Plex/IBMPlexMono-Bold.ttf");
+  font-weight: 700;
+  font-style: normal;
+}
+
+//Caveat font
+@font-face {
+  font-family: "Caveat";
+  src: url("/assets/fonts/Caveat/Caveat-Regular.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Caveat";
+  src: url("/assets/fonts/Caveat/Caveat-Medium.ttf");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Caveat";
+  src: url("/assets/fonts/Caveat/Caveat-SemiBold.ttf");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Caveat";
+  src: url("/assets/fonts/Caveat/Caveat-Bold.ttf");
   font-weight: 700;
   font-style: normal;
 }

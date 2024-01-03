@@ -13,7 +13,7 @@ export const Button = (props: IButtonProperties) => {
       type="button"
       className={clsx(
         className,
-        'hover:bg-primary-80 group flex items-center rounded-[2.5rem] bg-primary-100 p-6 transition-colors',
+        'group flex items-center rounded-[2.5rem] bg-primary-100 p-6 transition-colors hover:bg-primary-80',
       )}
       {...rest}
     >
