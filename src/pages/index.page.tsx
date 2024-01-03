@@ -14,7 +14,7 @@ export function Home() {
                 alt="Logo"
                 className="mr-3 hidden h-[38px] w-full max-w-10 max-mob:block"
               />
-              <h1 className="font-caveat text-[4rem] font-bold uppercase text-primary-50 max-mob:text-xl">
+              <h1 className="font-caveat text-[4rem] font-bold uppercase tracking-[0.3rem] text-primary-50 max-mob:text-xl max-mob:tracking-[0.075rem]">
                 Molandak
               </h1>
             </div>
@@ -52,7 +52,7 @@ export function Home() {
       <section id="mission" className="pb-[3.375rem] pt-20 max-mob:py-[3.5rem]">
         <div className="mx-auto w-full max-w-[54.875rem] px-4 max-sm:px-0">
           <div className="text-center max-mob:px-4">
-            <h1 className="font-caveat text-[4rem] font-bold uppercase text-primary-50 max-mob:text-3xl">
+            <h1 className="font-caveat text-[4rem] font-bold uppercase tracking-[0.3rem] text-primary-50 max-mob:text-3xl max-mob:tracking-[0.04rem]">
               OUR MISSION
             </h1>
             <h4 className="text-[1.75rem] leading-[2.25rem] max-mob:mt-1 max-mob:text-base max-mob:leading-6">
@@ -107,7 +107,7 @@ export function Home() {
             className="aspect-square max-w-[11.875rem]"
           />
           <div className="mt-[-4.2rem] text-center max-mob:mt-[-2rem]">
-            <h1 className="font-caveat text-[4rem] font-bold uppercase text-primary-50 max-mob:text-3xl">
+            <h1 className="font-caveat text-[4rem] font-bold uppercase tracking-[0.3rem] text-primary-50 max-mob:text-3xl max-mob:tracking-[0.04rem]">
               Tokenomick
             </h1>
             <h4 className="text-[1.75rem] leading-[2.25rem] max-mob:mt-1 max-mob:text-base max-mob:leading-6">
@@ -119,7 +119,7 @@ export function Home() {
       </section>
       <section id="roadmap" className="pb-[10rem] pt-20 max-mob:pb-10">
         <div className="text-center">
-          <h1 className="font-caveat text-[4rem] font-bold uppercase text-primary-50 max-mob:text-3xl">
+          <h1 className="font-caveat text-[4rem] font-bold uppercase tracking-[0.3rem] text-primary-50 max-mob:text-3xl max-mob:tracking-[0.04rem]">
             Roadmap
           </h1>
           <div className="flex flex-col items-center text-center text-xl max-mob:mt-1 max-mob:text-base">
